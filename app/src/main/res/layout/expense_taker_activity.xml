@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/darkGrey" />
+
+    <EditText
+        android:id="@+id/purpose"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Purpose"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/darkGrey" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="147dp"
+        android:background="@drawable/editshape"
+        android:clickable="true"
+        android:drawableLeft="@drawable/clock"
+        android:editable="false"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Date"
+        android:inputType="date"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey" />
+
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="370dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Description (Optional)"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey" />
+
+    <Spinner
+        android:id="@+id/amt"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/editshape"
+        android:entries="@array/country_arrays"
+        android:gravity="center"
+        android:prompt="@string/country_prompt" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:background="@drawable/shape"
+        android:text="Save" />
+
+</RelativeLayout>

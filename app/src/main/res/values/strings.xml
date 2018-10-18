@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Expensify</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_title_home">Records</string>
+    <string name="msg_no_notes">No Records found!</string>
+    <string name="lbl_new_note_title">New Record</string>
+    <string name="lbl_edit_note_title">Edit Record</string>
+    <string name="hint_enter_note">Enter your record!</string>
+
+    <string name="country_prompt">Choose Payment Method</string>
+
+    <string-array name="country_arrays">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>Net Banking</item>
+    </string-array>
+    <string name="title_activity_display">DisplayActivity</string>
+</resources>
