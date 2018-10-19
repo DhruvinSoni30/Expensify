@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:paddingLeft="@dimen/activity_margin"
     android:paddingRight="@dimen/activity_margin"
-    android:paddingTop="@dimen/activity_margin">
+    android:paddingTop="@dimen/activity_margin"
+    android:background="@color/grey">
 
     <TextView android:id="@+id/dialog_title"
         android:layout_width="wrap_content"
@@ -71,7 +72,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="date : "/>
+            android:text="Date:" />
 
         <EditText
             android:id="@+id/datev"
@@ -93,7 +94,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="description : "/>
+            android:text="Description : " />
 
         <EditText
             android:id="@+id/descriptionv"
@@ -115,7 +116,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="method : "/>
+            android:text="Method : " />
 
         <EditText
             android:id="@+id/methodv"

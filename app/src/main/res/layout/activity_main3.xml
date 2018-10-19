@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main3Activity">
+    tools:context=".Main3Activity"
+    android:background="@color/grey">
 
     <EditText
-        android:id="@+id/price"
+        android:id="@+id/prc"
         android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
@@ -21,7 +22,7 @@
         android:textColorHint="@color/darkGrey" />
 
     <EditText
-        android:id="@+id/purpose"
+        android:id="@+id/pur"
         android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
@@ -35,7 +36,7 @@
         android:textColorHint="@color/darkGrey" />
 
     <EditText
-        android:id="@+id/date"
+        android:id="@+id/dt"
         android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
@@ -62,6 +63,7 @@
         android:gravity="center"
         android:hint="Description (Optional)"
         android:inputType="textMultiLine"
+        android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textColorHint="@color/darkGrey" />
 
@@ -71,14 +73,15 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="144dp"
+        android:layout_marginBottom="150dp"
         android:background="@drawable/editshape"
         android:entries="@array/country_arrays"
         android:gravity="center"
-        android:prompt="@string/country_prompt" />
+        android:prompt="@string/country_prompt"
+        android:drawableRight="@drawable/down"/>
 
     <Button
-        android:id="@+id/save"
+        android:id="@+id/sve"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

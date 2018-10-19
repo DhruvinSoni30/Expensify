@@ -2,6 +2,7 @@ package com.example.android.expensemanagert1;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -22,7 +23,9 @@ public class Main3Activity extends AppCompatActivity {
     EditText expense,reason,Dt,detail;
     Spinner method;
 
+
     Button save;
+
     final Calendar myCalendar = Calendar.getInstance();
 
     private DatabaseHelper db;
@@ -31,18 +34,21 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.expense_taker_activity);
+        setContentView(R.layout.activity_main3);
 
-        save = findViewById(R.id.save);
 
-        expense = (EditText)findViewById(R.id.price);
-        reason = (EditText)findViewById(R.id.purpose);
+
+
+        save = findViewById(R.id.sve);
+
+        expense = (EditText)findViewById(R.id.prc);
+        reason = (EditText)findViewById(R.id.pur);
         detail = findViewById(R.id.des);
         method = (Spinner)findViewById(R.id.amt);
 
         db = new DatabaseHelper(this);
 
-        Dt = findViewById(R.id.date);
+        Dt = findViewById(R.id.dt);
 
         final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
 
